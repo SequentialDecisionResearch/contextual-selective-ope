@@ -1,0 +1,18 @@
+metric,value
+Synthetic H1 global-positive/local-negative rate,0.75
+Synthetic S0 global Delta,0.0130505830592865
+Synthetic S0 minimum local Delta,-0.0679506104975453
+Synthetic BB-DR mean harmful exposure,5.56375e-05
+Synthetic BB-DR mean deployment coverage,0.6980356911764707
+Synthetic S5 severe harmful exposure,0.00075169
+Synthetic S5 severe coverage,0.24741928000000002
+Semi local-stress global rollout harm,0.10174519933674604
+Semi local-stress BB-DR harm,0.0002687211823570342
+Semi local-stress BB-DR coverage,0.8264313996519415
+OBD full clear-group mean DR MAE,0.05681418740255565
+OBD full clear-group mean IPS MAE,0.0009207252060143236
+OBD DR/IPS MAE ratio,61.705910766248536
+OBD mean forward local ESS fraction,0.20617312278316405
+OBD mean reverse local ESS fraction,0.016252519624318482
+OBD raw reverse clear harmful exposure,0.420606384873836
+OBD 5% ESS-screen reverse clear harmful exposure,0.0

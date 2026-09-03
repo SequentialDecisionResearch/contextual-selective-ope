@@ -1,0 +1,13 @@
+dataset,candidate_variant,regime,ess_fraction,interval_width
+breast_cancer,local_stress,good_overlap,0.8204404736798943,0.06657428265440407
+breast_cancer,local_stress,poor_overlap,0.5437250900160999,0.06560620996484892
+breast_cancer,natural,good_overlap,0.7188500236950071,0.09885031120615186
+breast_cancer,natural,poor_overlap,0.4115708196979356,0.09834984073699517
+digits,local_stress,good_overlap,0.45296627700780234,0.10851937545034142
+digits,local_stress,poor_overlap,0.3035077194634876,0.2515787233335712
+digits,natural,good_overlap,0.4556841292793655,0.10881581260240358
+digits,natural,poor_overlap,0.25866922924665264,0.26680813204508963
+wine,local_stress,good_overlap,0.691106955213358,0.15254645909511613
+wine,local_stress,poor_overlap,0.4619096950437051,0.2846964095037459
+wine,natural,good_overlap,0.6157882967476042,0.2011419020020349
+wine,natural,poor_overlap,0.3769298910797297,0.3422159963042148
