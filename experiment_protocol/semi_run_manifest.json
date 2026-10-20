@@ -1,0 +1,14 @@
+{
+  "run_mode": "paper",
+  "datasets": [
+    "digits",
+    "wine",
+    "breast_cancer"
+  ],
+  "fixed_logging_draws": 250,
+  "primary_fixed_logging_draws": 250,
+  "sensitivity_fixed_logging_draws": 100,
+  "outer_splits": 20,
+  "outer_logging_draws": 10,
+  "compute_efficient_paper_protocol": true
+}

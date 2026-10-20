@@ -1,0 +1,23 @@
+{
+  "runner_revision": "PRE-PAPER-FINAL-R6-DRFIX",
+  "run_mode": "paper",
+  "campaigns": [
+    "all",
+    "men",
+    "women"
+  ],
+  "data_path": "C:\\lsg\\open_bandit_dataset",
+  "bts_n_sim": 100000,
+  "reps_per_nonfull_size": 20,
+  "compute_efficient_paper_protocol": true,
+  "temporal_robustness": false,
+  "metrics_version": "obd_eval_v6_drfixed",
+  "reference_interval_method": "newcombe_wilson_difference",
+  "action_context_alignment": "item_id_plus_bijective_categorical_relabeling",
+  "obd_reward_nuisance": "crossfit_logistic_sgd",
+  "q_pi_computation": "explicit_per_action_probability_average",
+  "behavior_baseline": "logged_on_policy_w0_equals_1",
+  "bts_target_definition": "OBP_ZOZOTOWN_prior_static_evaluation_distribution",
+  "oracle_metrics_present": false,
+  "ambiguity_aware_reporting": true
+}

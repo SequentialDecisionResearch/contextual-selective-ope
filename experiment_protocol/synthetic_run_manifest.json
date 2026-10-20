@@ -1,0 +1,165 @@
+{
+  "run_mode": "paper",
+  "recovered_from_checkpoint": true,
+  "recovery_scope": "S0-S5 only",
+  "s6_present": false,
+  "source_checkpoint_dir": "C:\\lsg\\BCSPI_python_code\\bcspi_results\\cache\\synthetic_paper_checkpoint",
+  "source_checkpoint_shards_used": 1240,
+  "source_protocol": {
+    "bayes_bootstrap_draws": 1000,
+    "bootstrap_draws": 1000,
+    "checkpoint_every": 20,
+    "deploy_size": 20000,
+    "key_reps": 500,
+    "n_folds": 5,
+    "protocol_hash": "097063bb6d3c6eaf8b68",
+    "quick": false,
+    "reps": 200,
+    "run_mode": "paper",
+    "runner_revision": "PAPER-EFFICIENT-SYN-R2",
+    "s0_s5_conditions": [
+      [
+        "S0_clean",
+        "base"
+      ],
+      [
+        "S1_overlap",
+        "good"
+      ],
+      [
+        "S1_overlap",
+        "moderate"
+      ],
+      [
+        "S1_overlap",
+        "poor"
+      ],
+      [
+        "S1_overlap",
+        "severe"
+      ],
+      [
+        "S2_rare_heterogeneous",
+        "balanced"
+      ],
+      [
+        "S2_rare_heterogeneous",
+        "mild"
+      ],
+      [
+        "S2_rare_heterogeneous",
+        "rare"
+      ],
+      [
+        "S2_rare_heterogeneous",
+        "severe"
+      ],
+      [
+        "S2_rare_homogeneous",
+        "balanced"
+      ],
+      [
+        "S2_rare_homogeneous",
+        "mild"
+      ],
+      [
+        "S2_rare_homogeneous",
+        "rare"
+      ],
+      [
+        "S2_rare_homogeneous",
+        "severe"
+      ],
+      [
+        "S3_shift",
+        "mean_0"
+      ],
+      [
+        "S3_shift",
+        "mean_025"
+      ],
+      [
+        "S3_shift",
+        "mean_05"
+      ],
+      [
+        "S3_shift",
+        "mean_10"
+      ],
+      [
+        "S3_shift",
+        "composition_mild"
+      ],
+      [
+        "S3_shift",
+        "composition_medium"
+      ],
+      [
+        "S3_shift",
+        "composition_severe"
+      ],
+      [
+        "S4_misspecified",
+        "linear"
+      ],
+      [
+        "S4_misspecified",
+        "mild_nonlinear"
+      ],
+      [
+        "S4_misspecified",
+        "strong_nonlinear"
+      ],
+      [
+        "S5_combined",
+        "moderate"
+      ],
+      [
+        "S5_combined",
+        "severe"
+      ]
+    ],
+    "s6_levels": [
+      "stationary",
+      "gradual_recent_advantage",
+      "gradual_old_optimistic",
+      "abrupt_recent_advantage",
+      "group_specific"
+    ],
+    "s6_reps": 200,
+    "s6_sample_sizes": [
+      2000,
+      5000,
+      10000,
+      20000
+    ],
+    "s6_schemes": [
+      "full",
+      "roll_25",
+      "roll_50",
+      "roll_75",
+      "decay_h10",
+      "decay_h25",
+      "decay_h50",
+      "relevance_h25"
+    ],
+    "sample_sizes": [
+      2000,
+      5000,
+      10000,
+      20000
+    ],
+    "seed": 20260823,
+    "truth_size": 100000
+  },
+  "observed_n_values": [
+    2000,
+    5000,
+    10000,
+    20000
+  ],
+  "final_point_rows": 544000,
+  "final_gate_rows": 766000,
+  "backup_before_salvage": "C:\\lsg\\BCSPI_python_code\\bcspi_results\\synthetic_pre_salvage_backup_20260830_082549",
+  "note": "S0-S5 were recovered without rerunning estimators. n=20000 is retained because it was already completed. The clean future run_synthetic.py uses a separate, leaner protocol and a different checkpoint directory."
+}
